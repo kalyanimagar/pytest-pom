@@ -19,7 +19,6 @@ class LaunchPage(BaseDriver):
     SELECT_DATE_FIELD="//input[@id='BE_flight_origin_date']"
     ALL_DATES="//div[@id='monthWrapper']//tbody//td"
     SERACH_BUTTON="//input[@value='Search Flights']"
-
     def getDepartFromField(self):
         return self.wait_until_element_is_clickable(By.XPATH, self.DEPARET_FROM_FILED)
 
