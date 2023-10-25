@@ -12,7 +12,6 @@ from pages.yatra_launch_page import LaunchPage
 from utilities.util import Utils
 from ddt import ddt, unpack, data, file_data
 
-
 @pytest.mark.usefixtures("setup")
 @ddt
 class TestSearchFlightdemo(softest.TestCase):
