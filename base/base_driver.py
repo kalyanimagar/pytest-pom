@@ -30,3 +30,6 @@ class BaseDriver:
     
     def new():
 	print("new method")
+
+    def method():
+	print("")
